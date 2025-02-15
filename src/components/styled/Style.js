@@ -17,6 +17,10 @@ export const StyledDateInput = styled.input`
   font-size: 16px;
   outline: none;
   transition: border-color 0.3s ease;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
 
   &:focus {
     border-color: #007bff;
