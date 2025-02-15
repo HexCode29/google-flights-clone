@@ -1,0 +1,54 @@
+.App{
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+.flex-center{
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.flight-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.flight-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 16px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.mt-small {
+  margin-top: 8px;
+}
+.mb-small {
+  margin-bottom: 8px;
+}
+.mr-s-small {
+  margin-right: 4px;
+}
+.ml-s-small {
+  margin-left: 4px;
+}
